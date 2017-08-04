@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FILENAME_PREFIX	./usb_detect.c	39;"	d	file:
+LOCAL_CFLAGS	./Android.mk	/^LOCAL_CFLAGS:= -DLOG_TAG=\\"usb_detect\\"$/;"	m
+LOCAL_FORCE_STATIC_EXECUTABLE	./Android.mk	/^LOCAL_FORCE_STATIC_EXECUTABLE := true$/;"	m
+LOCAL_MODULE	./Android.mk	/^LOCAL_MODULE := usb_detect$/;"	m
+LOCAL_MODULE_TAGS	./Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PATH	./Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	./Android.mk	/^LOCAL_SRC_FILES:= usb_detect.c$/;"	m
+LOCAL_STATIC_LIBRARIES	./Android.mk	/^LOCAL_STATIC_LIBRARIES := libcutils libc liblog$/;"	m
+USB_FILE_NAME	./usb_detect.c	41;"	d	file:
+USB_MOUNT_PATH	./usb_detect.c	40;"	d	file:
+main	./usb_detect.c	/^int main(void)$/;"	f
+notify_process	./usb_detect.c	/^int notify_process(int nfd)$/;"	f
+try_to_find_usb_device	./usb_detect.c	/^int try_to_find_usb_device(void)$/;"	f
+usb_filename_verify	./usb_detect.c	/^int usb_filename_verify(const char *name)$/;"	f
